@@ -10,13 +10,14 @@ const routes = [
     {   //一级路由
         path: '/',
         name: '/',
-        title: '首页',
-        component: () => import('@/components/home.vue'),
+        title: "首页",
+        component: () => import('@/components/home.vue'), 
+        redirect:"/coupon",
         children: [  // 二级路由
             {
-                path: 'mainPage',
-                name: 'mainPage',
-                title: '主页',
+                path: 'coupon',
+                name: 'coupon',
+                title: "主页",
                 component: () => import('@/views/coupon/coupon.vue'),
                 children: [   // 三级路由
                     // {
@@ -28,16 +29,7 @@ const routes = [
                 ]
             }
         ]
-    },
-    // {
-    //     path: '/login',
-    //     name: 'login',
-    //     title: '登录',
-    //     component: () => import('../components/login.vue'),
-    //     meta: {
-    //         transition: 'down'
-    //     }
-    // }
+    }, 
 ]
 
 export default routes
