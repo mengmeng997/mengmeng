@@ -112,8 +112,11 @@ const instance = axios.create({
   headers: {
     //php 的 post 传输请求头一定要这个 不然报错 接收不到值
     "Content-Type": "application/json;charset=UTF-8",
-    "Access-Control-Allow-Origin-Type": '*'
+    "Access-Control-Allow-Origin-Type": '*',
+    'accessToken':'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxOCIsImlhdCI6MTY0NDgwMTI4NiwiaXNzIjoiMTUzMzY4OTM5MDkiLCJzdWIiOiIxXzE1MzM2ODkzOTA5XzE4In0.e1wkaKsEMi0jMnJEKWecf5XFifM89T4QPBCrzkiVDq0',
+    'access_token':'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxOCIsImlhdCI6MTY0NDgwMTI4NiwiaXNzIjoiMTUzMzY4OTM5MDkiLCJzdWIiOiIxXzE1MzM2ODkzOTA5XzE4In0.e1wkaKsEMi0jMnJEKWecf5XFifM89T4QPBCrzkiVDq0'
   },
+  
   // 请求时长
   timeout: 1000 * 30,
   // 请求的base地址 TODO:这块以后根据不同的模块调不同的api

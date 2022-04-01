@@ -9,8 +9,9 @@ export class Request {
    * @param {object} params 参数
    */
   static get = (url: string, params?: any) => {
+    console.log(666)
     return this.httpClient({
-      mothod:"get",
+      method:"get",
       url:url,
       data:params
     })
@@ -18,7 +19,7 @@ export class Request {
 
   static post = (url: string, params?: any) => {
     return this.httpClient({
-      mothod:"get",
+      method:"post",
       url:url,
       data:params
     })
@@ -26,7 +27,7 @@ export class Request {
   
   static put = (url: string, params?: any) => {
     return this.httpClient({
-      mothod:"put",
+      method:"put",
       url:url,
       data:params
     })
@@ -34,7 +35,7 @@ export class Request {
 
   static delete = (url: string, params?: any) => {
     return this.httpClient({
-      mothod:"delete",
+      method:"delete",
       url:url,
       data:params
     })

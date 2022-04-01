@@ -43,9 +43,10 @@ export default defineConfig({
     open: true, // 在服务器启动时自动在浏览器中打开应用程序
     //反向代理配置，注意rewrite写法，开始没看文档在这里踩了坑
     proxy: {
-        '/list': {
-            target: 'http://192.168.0.104:9000',   //代理接口
+        '/app-api': {
+            target: 'http://10.10.77.174:28140',   //代理接口
             changeOrigin: true,
+           
             // rewrite: (path) => path.replace(/^\/api/, '')
       }
     }

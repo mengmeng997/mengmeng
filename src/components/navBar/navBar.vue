@@ -2,10 +2,10 @@
   <div>
     <van-nav-bar
     
-      left-arrow="true"
+      :left-arrow="true"
       @click-left="onClickLeft"
-      fixed="true"
-      safe-area-inset-top="ture"
+      :fixed="true"
+      safe-area-inset-top
     >
       <template #left>
         <div class="left"></div>
