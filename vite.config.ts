@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: 曾利锋[阿牛]
- * @Date: 2022-03-23 16:27:05
- * @LastEditors: 曾利锋[阿牛]
- * @LastEditTime: 2022-03-23 17:26:42
- */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import styleImport from 'vite-plugin-style-import';

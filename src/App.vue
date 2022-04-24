@@ -1,13 +1,3 @@
-<!--
- * @Descripttion: 
- * @version: 
- * @Author: 曾利锋[阿牛]
- * @Date: 2022-03-23 16:27:05
- * @LastEditors: 曾利锋[阿牛]
- * @LastEditTime: 2022-03-23 17:33:45
--->
-
-
 <template> 
   <router-view></router-view>
 </template>

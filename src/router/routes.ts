@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: 曾利锋[阿牛]
- * @Date: 2022-03-23 17:52:55
- * @LastEditors: 曾利锋[阿牛]
- * @LastEditTime: 2022-03-23 18:02:18
- */
 const routes = [
     {   //一级路由
         path: '/',

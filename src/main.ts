@@ -1,11 +1,3 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: 曾利锋[阿牛]
- * @Date: 2022-03-23 16:27:05
- * @LastEditors: 曾利锋[阿牛]
- * @LastEditTime: 2022-03-23 18:04:47
- */
 import { createApp } from 'vue'
 import App from './App.vue'
 import { Button } from 'vant';
